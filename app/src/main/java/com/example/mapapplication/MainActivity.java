@@ -1,25 +1,28 @@
 package com.example.mapapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.EditText;
-import java.util.ArrayList;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.View;
+import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.here.android.mpa.common.GeoCoordinate;
 import com.here.android.mpa.common.OnEngineInitListener;
 import com.here.android.mpa.mapping.Map;
-import com.here.android.mpa.mapping.MapObject;
 import com.here.android.mpa.mapping.MapFragment;
-import com.here.android.mpa.search.DiscoveryRequest;
-import com.here.android.mpa.search.DiscoveryResultPage;
-import com.here.android.mpa.search.SearchRequest;
-import com.here.android.mpa.search.ResultListener;
-import com.here.android.mpa.search.ErrorCode;
-import com.here.android.mpa.search.DiscoveryResult;
-import com.here.android.mpa.search.PlaceLink;
 import com.here.android.mpa.mapping.MapMarker;
+import com.here.android.mpa.mapping.MapObject;
+import com.here.android.mpa.search.DiscoveryRequest;
+import com.here.android.mpa.search.DiscoveryResult;
+import com.here.android.mpa.search.DiscoveryResultPage;
+import com.here.android.mpa.search.ErrorCode;
+import com.here.android.mpa.search.PlaceLink;
+import com.here.android.mpa.search.ResultListener;
+import com.here.android.mpa.search.SearchRequest;
+
+import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity {
